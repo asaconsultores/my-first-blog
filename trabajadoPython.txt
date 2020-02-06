@@ -1,0 +1,303 @@
+
+
+
+///  TRABAJO INICIAL
+
+PowerShell Integrated Console
+
+PS C:\Users\asalas\djangoasa> & c:/Users/asalas/djangoasa/asavenv/Scripts/activate.ps1
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió        
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es  
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot 
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(asavenv) PS C:\Users\asalas\djangoasa> asavenv\Scripts\activate
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> C:\WINDOWS\system32 > Set-ExecutionPolicy -Execu
+An error occurred while reading input:
+
+System.ArgumentOutOfRangeException: El valor debe ser mayor que o igual a cero y menor que el tamaño de búfer de consola en dicha dimensión.
+Nombre del parámetro: top
+Valor actual 12.
+   en System.Console.SetCursorPosition(Int32 left, Int32 top)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.InsertInput(StringBuilder inputLine, Int32 promptStartCol, Int32 promptStartRow, String insertedInput, Int32 cursorIndex, Int32 insertIndex, Int32 replaceLength, Int32 finalCursorIndex)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.<ReadLine>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Microsoft.PowerShell.EditorServices.EditorServicesPSHostUserInterface.<StartReplLoop>d__103.MoveNext()
+
+(asavenv) PS C:\Users\asalas\djangoasa> C:\WINDOWS\system32 > Set-ExecutionPolicy -Execu
+An error occurred while reading input:
+
+System.ArgumentOutOfRangeException: El valor debe ser mayor que o igual a cero y menor que el tamaño de búfer de consola en dicha dimensión.
+Nombre del parámetro: top
+Valor actual 12.
+   en System.Console.SetCursorPosition(Int32 left, Int32 top)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.InsertInput(StringBuilder inputLine, Int32 promptStartCol, Int32 promptStartRow, String insertedInput, Int32 cursorIndex, Int32 insertIndex, Int32 replaceLength, Int32 finalCursorIndex)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.<ReadLine>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Microsoft.PowerShell.EditorServices.EditorServicesPSHostUserInterface.<StartReplLoop>d__103.MoveNext()
+
+(asavenv) PS C:\Users\asalas\djangoasa> Set-ExecutionPolicy -ExecutionPolicy RemoteSigne
+An error occurred while reading input:
+
+System.ArgumentOutOfRangeException: El valor debe ser mayor que o igual a cero y menor que el tamaño de búfer de consola en dicha dimensión.
+Nombre del parámetro: top
+Valor actual 12.
+   en System.Console.SetCursorPosition(Int32 left, Int32 top)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.InsertInput(StringBuilder inputLine, Int32 promptStartCol, Int32 promptStartRow, String insertedInput, Int32 cursorIndex, Int32 insertIndex, Int32 replaceLength, Int32 finalCursorIndex)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.<ReadLine>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Microsoft.PowerShell.EditorServices.EditorServicesPSHostUserInterface.<StartReplLoop>d__103.MoveNext()
+
+(asavenv) PS C:\Users\asalas\djangoasa> Set-ExecutionPolicy -ExecutionPolicy RemoteSigne
+An error occurred while reading input:
+
+System.ArgumentOutOfRangeException: El valor debe ser mayor que o igual a cero y menor que el tamaño de búfer de consola en dicha dimensión.
+Nombre del parámetro: top
+Valor actual 12.
+   en System.Console.SetCursorPosition(Int32 left, Int32 top)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.InsertInput(StringBuilder inputLine, Int32 promptStartCol, Int32 promptStartRow, String insertedInput, Int32 cursorIndex, Int32 insertIndex, Int32 replaceLength, Int32 finalCursorIndex)
+   en Microsoft.PowerShell.EditorServices.Console.ConsoleReadLine.<ReadLine>d__8.MoveNext()
+--- Fin del seguimiento de la pila de la ubicación anterior donde se produjo la excepción ---
+   en System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   en Microsoft.PowerShell.EditorServices.EditorServicesPSHostUserInterface.<StartReplLoop>d__103.MoveNext()
+
+(asavenv) PS C:\Users\asalas\djangoasa> code (Get-ChildItem $Home\.vscode\extensions\ms-vscode.PowerShell-*\examples)[-1]
+code : El término 'code' no se reconoce como nombre de un cmdlet, función, archivo de   
+script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si       
+incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.  
+En línea: 1 Carácter: 1
++ code (Get-ChildItem $Home\.vscode\extensions\ms-vscode.PowerShell-*\e ...
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (code:String) [], CommandNotFoundExcepti  
+   on
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> code (Get-ChildItem $Home\.vscode\extensions\ms-vscode.PowerShell-*\examples)[-1]       django-admin.exe startproject mysite .
+                                        code (Get-ChildItem $Home\.vscode\extensions\ms-vscode.PowerShell-*\examples)[-1]
+
+(asavenv) PS C:\Users\asalas\djangoasa> code (Get-ChildItem $Home\.vscode\extensions\ms-vscode.PowerShell-*\examples)[-1]       django-admin.exe startproject mysite .
+
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> asavenv\Scripts\activate
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.py
+django-admin.py : El término 'django-admin.py' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.py
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.py:String) [], CommandNotF  
+   oundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+django-admin.exe : El término 'django-admin.exe' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.exe startproject mysite .
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.exe:String) [], CommandNot  
+   FoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> py django-admin.exe startproject mysite .
+C:\Users\asalas\AppData\Local\Programs\Python\Python38-32\python.exe: can't open file 'django-admin.exe': [Errno 2] No such file or directory
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.py startproject mysite . 
+django-admin.py : El término 'django-admin.py' no se reconoce como nombre de un 
+cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió 
+correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es   
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ django-admin.py startproject mysite .
++ ~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (django-admin.py:String) [], CommandNotF  
+   oundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> import django
+import : El término 'import' no se reconoce como nombre de un cmdlet, función, archivo 
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si 
+incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.  
+En línea: 1 Carácter: 1
++ import django
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundExcep  
+   tion
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> print(django.get_version())
+En línea: 1 Carácter: 26
++ print(django.get_version())
++                          ~
+Se esperaba una expresión después de '('.
+(asavenv) PS C:\Users\asalas\djangoasa> -m pip install Django
+-m : El término '-m' no se reconoce como nombre de un cmdlet, función, archivo de 
+script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si 
+incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.  
+En línea: 1 Carácter: 1
++ -m pip install Django
++ ~~
+    + CategoryInfo          : ObjectNotFound: (-m:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+(asavenv) PS C:\Users\asalas\djangoasa> py -m pip install Django
+Collecting Django
+  Using cached https://files.pythonhosted.org/packages/c6/b7/63d23df1e311ca0d90f41352a9efe7389ba353df95deea5676652e615420/Django-3.0.3-py3-none-any.whl
+Collecting pytz (from Django)
+  Using cached https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl
+Collecting asgiref~=3.2 (from Django)
+  Using cached https://files.pythonhosted.org/packages/a5/cb/5a235b605a9753ebcb2730c75e610fb51c8cab3f01230080a8229fa36adb/asgiref-3.2.3-py2.py3-none-any.whl
+Collecting sqlparse>=0.2.2 (from Django)
+  Using cached https://files.pythonhosted.org/packages/ef/53/900f7d2a54557c6a37886585a91336520e5539e3ae2423ff1102daf4f3a7/sqlparse-0.3.0-py2.py3-none-any.whl
+Installing collected packages: pytz, asgiref, sqlparse, Django
+Successfully installed Django-3.0.3 asgiref-3.2.3 pytz-2019.3 sqlparse-0.3.0
+WARNING: You are using pip version 19.2.3, however version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.    
+(asavenv) PS C:\Users\asalas\djangoasa> py -m pip install --upgrade pip
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/54/0c/d01aa759fdc501a58f431eb594a17495f15b88da142ce14b5845662c13f3/pip-20.0.2-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 19.2.3
+    Uninstalling pip-19.2.3:
+      Successfully uninstalled pip-19.2.3
+Successfully installed pip-20.0.2
+(asavenv) PS C:\Users\asalas\djangoasa> print(django.get_version())    
+En línea: 1 Carácter: 26
++ print(django.get_version())
++                          ~
+Se esperaba una expresión después de '('.
+(asavenv) PS C:\Users\asalas\djangoasa> import django                  
+import : El término 'import' no se reconoce como nombre de un cmdlet, función, archivo 
+de script o programa ejecutable. Compruebe si escribió correctamente el nombre o, si 
+incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.  
+En línea: 1 Carácter: 1
++ import django
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (import:String) [], CommandNotFoundExcep  
+   tion
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(asavenv) PS C:\Users\asalas\djangoasa> python
+Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import django
+>>> print)django.get_version())
+  File "<stdin>", line 1
+SyntaxError: unmatched ')'
+>>> print (django.get_version())  
+3.0.3
+>>> django-admin.exe startproject mysite .
+  File "<stdin>", line 1
+    django-admin.exe startproject mysite .
+                     ^
+SyntaxError: invalid syntax
+>>> asavenv activate
+  File "<stdin>", line 1
+    asavenv activate
+            ^
+SyntaxError: invalid syntax
+>>> asavenv
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'asavenv' is not defined
+>>> cd..
+  File "<stdin>", line 1
+    cd..
+       ^
+SyntaxError: invalid syntax
+>>> exit
+Use exit() or Ctrl-Z plus Return to exit
+>>> ^Z
+
+(asavenv) PS C:\Users\asalas\djangoasa> django-admin.exe startproject mysite .
+(asavenv) PS C:\Users\asalas\djangoasa> py manage.py migrate
+Operations to perform:
+
+
+// TODO ESTO SALIO BIEN
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6        
+PS C:\Users\asalas\djangoasa\asavenv\Scripts> & c:/Users/asalas/djangoasa/asavenv/Scripts/activate.ps1
+(asavenv) PS C:\Users\asalas\djangoasa\asavenv> cd..
+(asavenv) PS C:\Users\asalas\djangoasa> py manage.py startapp blog
+(asavenv) PS C:\Users\asalas\djangoasa> pyNo changes detected in app 'blog'
+(asavenv) PS C:\Users\asalas\djangoasa> py manage.py makemigrations blog
+Migrations for 'blog':
+  blog\migrations\0001_initial.py
+(asavenv) PS C:\Users\asalas\djangoasa> py python manage.py migrate blog
+hon\Python38-32\python.exe: can't open file 'python': [Errno 2] No such file or directory
+(asavenv) PS C:\Users\asalas\djangoasa> py python manage.py migrate blog
+hon\Python38-32\python.exe: can't open file 'python': [Errno 2] No such file or directory
+(asavenv) PS C:\Users\asalas\djangoasa> py(asavenv) PS C:\Users\asalas\djangoasa> py python manage.py migrate blog
+C:\Users\asalas\AppData\Local\Programs\Python\Python38-32\python.exe: can't open file 'python': [Errno 2] No such file or directory
+(asavenv) PS C:\Users\asalas\djangoasa> py manage.py migrate blog
+Operations to perform:
+  Apply all migrations: blog
+Running migrations:
+  Applying blog.0001_initial... OK        
+(asavenv) PS C:\Users\asalas\djangoasa> PY manage.py createsuperuser
+Nombre de usuario (leave blank to use 'asalas'): asalas
+Dirección de correo electrónico: alexander@rentatuweb.net
+Password:
+Password (again):
+Superuser created successfully.
+(asavenv) PS C:\Users\asalas\djangoasa> 
